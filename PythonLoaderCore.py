@@ -35,7 +35,13 @@ class Plugin():
         self.OnLoad()
     
     def OnLoad(self):
+        self.Register()
         self.module.OnLoad(self.KitX)
 
     def OnUnLoad(self):
         pass
+
+    def Register(self):
+        data = self.module.PluginData
+        data["RootStartupFileName"] = self.name
+        self.KitX.SendMessage(data)

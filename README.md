@@ -13,5 +13,3 @@
 2. 打开 KitX Dashboard 并记录端口号 PORT
 3. 使用命令 `python PythonLoader.py --load ExamplePlugin.py --connect 127.0.0.1:PORT`
 > ❗ 您要手动替换 PORT 为实际端口号 ❗
-
-> ❗ 本项目目前仅实现 Socket 通讯，没有注册插件 ❗
