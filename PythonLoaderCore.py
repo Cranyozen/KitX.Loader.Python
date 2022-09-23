@@ -16,6 +16,7 @@ class KitX():
     def __del__(self):
         self.client.shutdown(socket.SHUT_RDWR)
         self.client.close()
+        print("KitX socket closed.")
 
 class Plugin():
     def __init__(self, host: str, port: int, path: str, name:str) -> None:
@@ -34,7 +35,7 @@ class Plugin():
         self.OnLoad()
     
     def OnLoad(self):
-        self.module.OnLoad(KitX)
+        self.module.OnLoad(self.KitX)
 
     def OnUnLoad(self):
         pass

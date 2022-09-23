@@ -1,2 +1,5 @@
+import time
 def OnLoad(KitX):
-    pass
+    print(f"From plugin!\nHost:{KitX.host} Port:{KitX.port}")
+
+time.sleep(30)
