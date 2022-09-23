@@ -1,0 +1,35 @@
+{
+	"Name": "",
+	"Version": "",
+	"DisplayName": {},
+	"AuthorName": "",
+	"PublisherName": "",
+	"AuthorLink": "",
+	"PublisherLink": "",
+	"SimpleDescription": {},
+	"ComplexDescription": {},
+	"TotalDescriptionInMarkdown": {},
+	"IconInBase64": "",
+	"PublishDate": "",
+	"LastUpdateDate": "",
+	"IsMarketVersion": false,
+	"Tags": {},
+	"Functions": {
+		"FunctionsDisplayName": {
+			"Default": {}
+		},
+		"FunctionParameters": {
+			"Default": {
+				"ForeParameters": [{
+					"Name": "",
+					"DisplayName": {},
+					"Type": ""
+				}],
+				"HasAppendParameters": false,
+				"AppendParameterType": "",
+				"ReturnValueType": ""
+			}
+		}
+	},
+	"RootStartupFileName": ""
+}
